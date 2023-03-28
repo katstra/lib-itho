@@ -592,7 +592,7 @@ uint8_t* IthoCC1101::getMessageCommandBytes(IthoCommand command)
     case IthoFull:
       return (uint8_t*)&ithoMessageFullCommandBytes[0];
     case IthoMedium:
-      return (uint8_t*)&ithoMessageMediumCommandBytes[0];
+      return (uint8_t*)&ithoMessageRVMediumCommandBytes[0];
     case IthoLow:
       return (uint8_t*)&ithoMessageLowCommandBytes[0];
     case IthoTimer1:
